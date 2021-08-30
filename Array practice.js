@@ -1,0 +1,17 @@
+const states1 = ['Iowa', 'Texas', 'Oregon']; 
+const states2 = ['Kansas', 'California', 'Nevada'];
+const states = [];
+document.querySelector('#challenge1').textContent = states.join(', ');
+const animals = ['bonobo', 'hyena', 'zebra', 'koala', 'tiger'];
+document.querySelector('#challenge2').textContent = animals.join(', ');
+const numbers = [7, 13, 68, 49, 10000, 0.23]
+document.querySelector('#challenge3').textContent = numbers.join(', ');
+const directions = ['n', 's', 'nw', 'e', 'se'];
+const newDirections = [];
+document.querySelector('#challenge4').textContent = newDirections.join(', ');
+const birds = ['seagull', 'hawk', 'sparrow', 'raven'];
+document.querySelector('#challenge5').textContent = birds.join(', ');
+const menu = ['gyro', 'sandwich', 'burger', 'taco', 'pasta'];
+document.querySelector('#challenge6').textContent = menu.join(', ');
+const drinks = ['milkshake', 'coffee', 'tea', 'mimosa']
+document.querySelector('#challenge7').textContent = drinks.join(', ');
